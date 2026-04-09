@@ -1,0 +1,6 @@
+contracts/.env
+*.local
+.env
+.env.*
+dist
+node_modules

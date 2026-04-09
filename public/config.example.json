@@ -1,0 +1,11 @@
+{
+  "bundlerUrl": "",
+  "entryPoint": "",
+  "disposableFactory": "",
+  "accountFactory": "",
+  "policyId": "",
+  "nearNetwork": "mainnet",
+  "nearNodeUrl": "https://rpc.mainnet.near.org",
+  "nearWalletUrl": "https://app.mynearwallet.com",
+  "nearHelperUrl": "https://helper.mainnet.near.org"
+}
