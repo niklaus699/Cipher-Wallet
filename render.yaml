@@ -1,9 +1,8 @@
 services:
-  # 1. The React Frontend (Vite)
+  # 1. The React Frontend
   - type: static
     name: cipher-frontend
-    # No 'env' line here—Static sites don't need it in the YAML spec
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --legacy-peer-deps && npm run build
     publishPath: ./dist
     routes:
       - type: rewrite
