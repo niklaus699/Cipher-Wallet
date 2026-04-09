@@ -2,7 +2,6 @@ services:
   # 1. The React Frontend (Vite)
   - type: static
     name: cipher-frontend
-    env: static
     # We use --legacy-peer-deps in case the 'messy' structure has version conflicts
     buildCommand: npm install --legacy-peer-deps && npm run build
     publishPath: ./dist
